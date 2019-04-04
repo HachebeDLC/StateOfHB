@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  min-height: 100vh;
+}
+
+:root {
+  --sky-top: #206;
+  --sky-bottom: #609;
+
+  --sun-size: 400px;
+  --sun-top: #f0c;
+  --sun-bottom: #80f;
+  --sun-highlight: #f00;
+  --sun-glow: #9006;
+}
+
+body {
+  background-image: linear-gradient(to bottom,
+    var(--sky-top),
+    var(--sky-bottom));
+  text-align: center;
+  box-sizing: border-box;
+}
