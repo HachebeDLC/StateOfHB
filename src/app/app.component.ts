@@ -16,7 +16,7 @@ export class AppComponent {
   }
   open() {
     let fraseHB: Frase[] = [];
-    this.http.get<Frase[]>('/frases.json').subscribe(data => {
+    this.http.get<Frase[]>('/assets/frases.json').subscribe(data => {
       fraseHB = data;
       const frase = fraseHB[(Math.floor(Math.random() * fraseHB.length))].frase;
       window.open('https://twitter.com/intent/tweet?text=' + frase);
