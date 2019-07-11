@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.techedge.tci",
+      "sha256_cert_fingerprints": [
+        "9B:12:16:CD:85:1B:99:DA:32:26:EF:B2:31:FD:37:D0:12:42:8D:95:A6:EF:4C:65:E8:F7:F7:13:4E:CA:27:47"
+      ]
+    }
+  }
+]
